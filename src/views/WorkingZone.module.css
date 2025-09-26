@@ -1,0 +1,27 @@
+.main-slide {
+  position: relative;
+}
+
+.text-field {
+  background-color: transparent;
+  position: absolute;
+  border-radius: 6px;
+  border: 1px solid transparent;
+}
+
+.text-field:hover {
+  cursor: pointer;
+  border-color: green;
+}
+
+.image-field {
+  background-color: transparent;
+  position: absolute;
+  border-radius: 6px;
+  border: 1px solid transparent;
+}
+
+.image-field:hover {
+  cursor: pointer;
+  border-color: red;
+}

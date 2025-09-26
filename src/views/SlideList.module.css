@@ -1,0 +1,21 @@
+.slide-list {
+  display: flex;
+  flex-direction: column;
+  margin: 30px;
+}
+
+.slide {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 25px;
+}
+
+.background-min-img {
+  height: 200px;
+  width: 300px;
+}
+
+.background-min-color {
+  height: 200px;
+  width: 300px;
+}

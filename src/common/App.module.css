@@ -1,0 +1,7 @@
+.working-space {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  height: 85vh;
+}
