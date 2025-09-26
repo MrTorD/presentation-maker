@@ -2,7 +2,7 @@ import type { Slide } from "../stock/types.js";
 import styles from "./WorkingZone.module.css";
 
 type WorkingZoneProps = {
-  slide: Slide;
+  slide: Slide | undefined;
   width: number;
   height: number;
 };
@@ -12,7 +12,7 @@ function WorkingZone(props: WorkingZoneProps) {
   const width = props.width;
   const height = props.height;
 
-  const slideObjects = slide.slideObjects.map((o) => (
+  const slideObjects = slide?.slideObjects.map((o) => (
     <div key={o.id}>
       {o.type === "text" && (
         <button

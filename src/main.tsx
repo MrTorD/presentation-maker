@@ -1,3 +1,5 @@
+const FirstSlideIndex = 0;
+
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 import "./index.css";
@@ -65,7 +67,7 @@ createRoot(document.getElementById("root")!).render(
   <StrictMode>
     <App
       presentation={p}
-      mainSlideProps={{ slide: p.slides[0], width: 1100, height: 750 }}
+      mainSlideProps={{ slide: p.slides[FirstSlideIndex], width: 1100, height: 750 }}
     />
   </StrictMode>,
 );
