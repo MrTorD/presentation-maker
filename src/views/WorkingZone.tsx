@@ -1,7 +1,7 @@
 import type { Slide } from "../stock/types.js";
 import styles from "./WorkingZone.module.css";
 
-type WorkingZoneProps = {
+type WorkingZoneProps = { //Rename to area.
   slide: Slide | undefined;
   width: number;
   height: number;

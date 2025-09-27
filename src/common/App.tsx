@@ -8,7 +8,7 @@ import type { Presentation, Slide } from "../stock/types";
 type PresentationProps = {
   presentation: Presentation;
   mainSlideProps: {
-    slide: Slide | undefined;
+    slide?: Slide;
     width: number;
     height: number;
   };
