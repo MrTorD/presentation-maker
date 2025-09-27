@@ -67,7 +67,11 @@ createRoot(document.getElementById("root")!).render(
   <StrictMode>
     <App
       presentation={p}
-      mainSlideProps={{ slide: p.slides[FirstSlideIndex], width: 1100, height: 750 }}
+      mainSlideProps={{
+        slide: p.slides[FirstSlideIndex],
+        width: 1100,
+        height: 750,
+      }}
     />
   </StrictMode>,
 );
