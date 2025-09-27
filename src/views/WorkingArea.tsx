@@ -1,13 +1,13 @@
 import type { Slide } from "../stock/types.js";
-import styles from "./WorkingZone.module.css";
+import styles from "./WorkingArea.module.css";
 
-type WorkingZoneProps = { //Rename to area.
+type WorkingAreaProps = {
   slide: Slide | undefined;
   width: number;
   height: number;
 };
 
-function WorkingZone(props: WorkingZoneProps) {
+function WorkingZone(props: WorkingAreaProps) {
   const slide = props.slide;
   const width = props.width;
   const height = props.height;

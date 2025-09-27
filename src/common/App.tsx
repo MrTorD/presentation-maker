@@ -1,7 +1,7 @@
 import "./App.css";
 import SlideList from "../views/SlideList";
 import ToolBar from "../views/ToolBar";
-import WorkingZone from "../views/WorkingZone";
+import WorkingArea from "../views/WorkingArea";
 import styles from "./App.module.css";
 import type { Presentation, Slide } from "../stock/types";
 
@@ -23,7 +23,7 @@ function App(props: PresentationProps) {
       <ToolBar presentation={p} />
       <div className={styles["working-space"]}>
         <SlideList slides={p.slides} />
-        <WorkingZone
+        <WorkingArea
           slide={mainSlideProps.slide}
           width={mainSlideProps.width}
           height={mainSlideProps.height}
